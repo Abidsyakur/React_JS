@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App2 {
+  text-align: center;
+}
+
+.App-logo  {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Parentbox{
+  width:80%;
+  overflow: hidden;
+  margin:auto;
+  margin-top:100px;
+}
+
+.Foto{
+  float:left;
+  width: 50%;
+  height: 500px;
+}
+
+.Foto img{
+  width: 550px;
+}
+
+.Deskripsi{
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Deskripsi .Info{
+  line-height: 1.5;
+  color: grey;
+}
+
+.Deskripsi .Price{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deskripsi .Tittle{
+    margin: 0;
+}
+
+.Deskripsi .Cate{
+  color: black;
+  font-size:40px;
+}
+
+.Deskripsi .nomer{
+  color : aqua;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 20px 25px;
+  margin-right: 0.7px;
+}
+.button11{
+  background-color: white;
+  color:grey;
+  border: 1px solid rgb(179, 179, 179);
+  padding: 10px 22px;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+
+.button11:hover{
+  background-color: black;
+  color: grey;
+  cursor: pointer;
+}
+
+.button1:hover{
+  background-color: black;
+  color: white;
+}
+
+.button2{
+  margin-top: 25px;
+  background-color: black;
+  color: white;
+  padding: 15px 45px;
+}
+
+.button2:hover{
+  cursor:pointer;
+}
+
+
+.button3{
+  margin-left: 6px;
+  border: none;
+  margin-top: 25px;
+  background-color: white;
+  color: black;
+  padding: 15px 45px;
+}
+.button4{
+  background-color: rgb(98, 202, 98);
+  color: white;
+  border: none;
+  margin-left: 40px;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.button4:hover{
+  cursor: pointer;
+  padding: 11px 16px;
+}
+
+.button3:hover{
+  box-shadow: 2px 2px black;
+}
+
+
+.noted{
+  font-size: small;
+  color:grey;
+}
+
+
+.Cate2{
+  font-size: small;
+  color: blue;
+}
+
+.merek{
+  margin-top: 40px;
+  margin-bottom: 2px;
+  font-size: 50px;
+}
+
+.deskrip{
+  margin-top: 6px;
+}
+
+.color{
+  color:grey;
+}
+
+.ques{
+  margin-top: 30px;
+}
+
+.line{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+.line2{
+  margin-top: 10px;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+
+.harga{
+  font-size: 20px;
+}
+
+
+
