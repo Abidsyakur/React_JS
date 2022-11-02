@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import './App.css';
+
+
 
 function App() {
-
+        
   return (
+
    <div className="Parentbox">
     <div className="Foto">
       <img src="img1.png"/>
@@ -26,7 +28,7 @@ function App() {
         <p class="noted">*Only 1 Available</p>
     </div>
     <div className="Foto">
-      <img src="img3.png"/>
+        <img  id="gambar" src="img3.png" />
     </div>
     <div className="Deskripsi">
       <p className="Cate2"><b>HEADPHONES</b></p>
@@ -35,6 +37,12 @@ function App() {
       </p>
         <div class="line2"></div>
        <p class="color"><b>Color</b></p>
+       
+      
+       <button   class = "warna1"  ></button>
+       <button class = "warna2" ></button>
+       <button class = "warna3" ></button>
+
        
        <p class="cable"><b>Cable Configuration</b></p>
        <button class="button11">Straight</button>
